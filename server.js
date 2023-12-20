@@ -4,9 +4,9 @@ const port = 3000
 
 app.use(express.json())
 
-app.get('/', function (req, res) {
-    res.send('Hello World')
-  })
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + "/pages/index.html")
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
