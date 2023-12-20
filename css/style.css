@@ -1,5 +1,13 @@
-nav ul{
+main {
+	
+}
+
+nav{
+	background-color: black;
+}
+
+nav ul {
 	display: flex;
 	flex-direction: row;
-	background-color: black;
+	gap: 1rem;
 }
