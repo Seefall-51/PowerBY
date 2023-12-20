@@ -1,11 +1,12 @@
 const express = require('express')
-const app = express()
+const path = require('path');
+const app = express();
 const port = 3000
 
-app.use(express.json())
+app.use(express.static(__dirname + '/'));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + "/pages/index.html")
+  res.sendFile(path.join(__dirname + "/pages/index.html"))
 })
 
 app.listen(port, () => {
