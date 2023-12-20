@@ -1,13 +1,44 @@
-main {
-	
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	background-color: #ADB3AA;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.3rem;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style-type:none;
+	gap: 1rem;
 }
 
 nav{
-	background-color: black;
+	background-color: #EFEFEF;
+	padding: 0.3rem;
+}
+
+h1 {
+	color: white;
 }
 
 nav ul {
 	display: flex;
 	flex-direction: row;
+	list-style-type:none;
 	gap: 1rem;
 }
