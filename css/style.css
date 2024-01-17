@@ -3,6 +3,7 @@ body {
 	background: #343E59;
 	color: #777;
 	font-family: Montserrat, Arial, sans-serif;
+	
   }
   
   .body-bg {
@@ -11,11 +12,6 @@ body {
   
   h1, h2, h3, h4, h5, h6, strong {
 	font-weight: 600;
-  }
-  
-  body {
-	/*background: linear-gradient(45deg,#3a3a60,#5f5f8e);
-	min-height: 100vh;*/
   }
   
   .content-area {
